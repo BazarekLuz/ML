@@ -2,11 +2,9 @@ from pathlib import Path
 import pandas as pd
 import tarfile
 import urllib.request
-import matplotlib.pyplot as plt
 import numpy as np
 from zlib import crc32
-from sklearn.model_selection import train_test_split, StratifiedShuffleSplit
-from pandas.plotting import scatter_matrix
+from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder, MinMaxScaler, StandardScaler, FunctionTransformer
 from sklearn.metrics.pairwise import rbf_kernel
